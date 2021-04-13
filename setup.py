@@ -18,7 +18,7 @@ setup(
     install_requires=[
         'grequests',
         'requests',
-        'sseclient-py'
+        'sseclient'
     ],
     tests_require=['nose'],
     test_suite='nose.collector',

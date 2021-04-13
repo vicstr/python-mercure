@@ -31,7 +31,7 @@ class Publisher(ABC):
         """
         Check if the parameters has the right values
 
-        :param Message message: THe message object
+        :param Message message: The message object
         """
         if len(self.mercure_hub) == 0:
             raise AttributeError('Please provide a mercure hub url')
