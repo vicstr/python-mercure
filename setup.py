@@ -26,6 +26,7 @@ setup(
     zip_safe=False,
     include_package_data=True,
     platforms='any',
+    package_dir = {'pymercure':'pymercure'},
     packages=find_packages(exclude=['tests']),
     classifiers=[
         'Environment :: Web Environment',
